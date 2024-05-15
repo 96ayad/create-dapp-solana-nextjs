@@ -60,12 +60,12 @@ export const JupiterView: FC = ({}) => {
         </div>
 
 
-        <div className={styles.body}>
-        <script src="https://terminal.jup.ag/main-v2.js" data-preload></script>
+        {/* <div className={styles.body}> */}
+        {/* <script src="https://terminal.jup.ag/main-v2.js" data-preload></script> */}
 
         <div id="integrated-terminal"></div>
 
-        </div>
+        {/* </div> */}
         
 
       </div>
