@@ -10,7 +10,7 @@ import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { SolanaLogo } from "components";
 import styles from "./index.module.css";
 
-export const HomeView: FC = ({}) => {
+export const JupiterView: FC = ({}) => {
   const { publicKey } = useWallet();
 
   const onClick = () => {};
