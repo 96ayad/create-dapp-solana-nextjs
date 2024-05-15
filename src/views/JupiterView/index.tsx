@@ -48,6 +48,7 @@ export const JupiterView: FC = ({}) => {
   }
 
   return (
+    
     <div className="container mx-auto max-w-6xl p-8 2xl:px-0">
       <div className={styles.container}>
         <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
@@ -65,8 +66,10 @@ export const JupiterView: FC = ({}) => {
         </div>
 
 
-        <div className={styles.body}>
         <script src="https://terminal.jup.ag/main-v2.js" data-preload></script>
+
+        <div className={styles.body}>
+        {/* <script src="https://terminal.jup.ag/main-v2.js" data-preload></script> */}
 
         <div id="integrated-terminal"></div>
 
