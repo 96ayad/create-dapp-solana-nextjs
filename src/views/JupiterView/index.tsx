@@ -68,7 +68,7 @@ export const JupiterView: FC = ({}) => {
 
         {/* <script src="https://terminal.jup.ag/main-v2.js"></script> */}
 
-        <div className={styles.body}>
+        <div className={styles.swap}>
         <script src="https://terminal.jup.ag/main-v2.js" data-preload></script>
 
         <div id="integrated-terminal"></div>
