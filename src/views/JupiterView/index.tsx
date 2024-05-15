@@ -28,9 +28,9 @@ export const JupiterView: FC = ({}) => {
       window.Jupiter.init({ 
         displayMode: "integrated",
         integratedTargetId: "integrated-terminal",
-        // endpoint: "https://mainnet.helius-rpc.com/?api-key=YOUR_API_KEY_HERE",
+        endpoint: "https://mainnet.helius-rpc.com/?api-key=YOUR_API_KEY_HERE",
 
-        endpoint: "https://api.devnet.solana.com",
+        // endpoint: "https://api.devnet.solana.com",
         strictTokenList: false,
         defaultExplorer: "SolanaFM",
         formProps: {
