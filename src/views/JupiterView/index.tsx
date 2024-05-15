@@ -28,12 +28,17 @@ export const JupiterView: FC = ({}) => {
       window.Jupiter.init({ 
         displayMode: "integrated",
         integratedTargetId: "integrated-terminal",
-        endpoint: "https://mainnet.helius-rpc.com/?api-key=YOUR_API_KEY_HERE",
+        // endpoint: "https://mainnet.helius-rpc.com/?api-key=YOUR_API_KEY_HERE",
+
+        endpoint: "https://api.devnet.solana.com",
         strictTokenList: false,
         defaultExplorer: "SolanaFM",
         formProps: {
-          initialAmount: "888888880000",
-          initialInputMint: "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+          initialAmount: "0.1",
+          // initialInputMint: "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+
+          initialInputMint: "So11111111111111111111111111111111111111112",
+          
           initialOutputMint: "AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR",
         },
       });
