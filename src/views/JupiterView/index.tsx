@@ -30,7 +30,11 @@ export const JupiterView: FC = ({}) => {
         integratedTargetId: "integrated-terminal",
         // endpoint: "https://mainnet.helius-rpc.com/?api-key=YOUR_API_KEY_HERE",
 
-        endpoint: "https://api.mainnet-beta.solana.com",
+        // endpoint: "https://api.mainnet-beta.solana.com",
+
+        endpoint: "https://raydium-raydium-5ad5.mainnet.rpcpool.com",
+
+        
         strictTokenList: false,
         defaultExplorer: "SolanaFM",
         formProps: {
