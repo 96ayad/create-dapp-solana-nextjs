@@ -34,10 +34,8 @@ export const JupiterView: FC = ({}) => {
         strictTokenList: false,
         defaultExplorer: "SolanaFM",
         formProps: {
-          initialAmount: "0.1",
-          // initialInputMint: "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
-
-          initialInputMint: "So11111111111111111111111111111111111111112",
+          initialAmount: "20",
+          initialInputMint: "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
           
           initialOutputMint: "AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR",
         },

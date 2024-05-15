@@ -1,9 +1,10 @@
 .swap{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; */
-    /* height: 100%; */
-    width: 600px;
-    height: 1200px;
+    justify-content: center;
+    height: 100%;
+    /* width: 100%; */
+    /* width: 600px; */
+    /* height: 1200px; */
   }
