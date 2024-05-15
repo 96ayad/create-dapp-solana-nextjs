@@ -11,7 +11,7 @@ const Swap: NextPage = (props) => {
           name="description"
           content="This site will fly high 🦤"
         />
-                {/* <script src="https://terminal.jup.ag/main-v2.js" data-preload></script> */}
+                <script src="https://terminal.jup.ag/main-v2.js" data-preload></script>
 
       </Head>
       <JupiterView />
