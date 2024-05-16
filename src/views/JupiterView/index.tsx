@@ -18,7 +18,13 @@ export const JupiterView: FC = ({}) => {
   useEffect(() => {
     // Dynamically load the Jupiter script
     const script = document.createElement('script');
-    script.src = "https://terminal.jup.ag/main-v2.js";
+
+    //////////////////ayad//////////////////
+    // script.src = "https://terminal.jup.ag/main-v2.js";
+
+    script.src = "https://jupiter-terminal.onrender.com/main-v2.js";
+    
+
     script.onload = () => launchJupiter(); // Initialize Jupiter after the script loads
     document.head.appendChild(script);
   }, []);
@@ -73,7 +79,10 @@ export const JupiterView: FC = ({}) => {
         {/* <script src="https://terminal.jup.ag/main-v2.js"></script> */}
 
         <div className={styles.swap}>
-        <script src="https://terminal.jup.ag/main-v2.js" data-preload></script>
+        {/* <script src="https://terminal.jup.ag/main-v2.js" data-preload></script> */}
+
+        <script src="https://jupiter-terminal.onrender.com/main-v2.js" data-preload></script>
+        
 
         <div id="integrated-terminal"></div>
 
