@@ -32,7 +32,9 @@ export const JupiterView: FC = ({}) => {
 
         // endpoint: "https://api.mainnet-beta.solana.com",
 
-        endpoint: "https://raydium-raydium-5ad5.mainnet.rpcpool.com",
+        // endpoint: "https://raydium-raydium-5ad5.mainnet.rpcpool.com",
+
+        endpoint: "https://api.devnet.solana.com",
 
         
         strictTokenList: false,
